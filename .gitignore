@@ -1,0 +1,26 @@
+# eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+out
+
+# osx
+.DS_Store
+
+# gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle.properties
+
+# project
+**/bin/
+**/var/
+**/logs/
