@@ -1,4 +1,4 @@
-package com.gabriellopes.crackingthecodinginterview;
+package com.gabriellopes.crackingthecodinginterview.datastructures;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
