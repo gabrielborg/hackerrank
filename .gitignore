@@ -24,3 +24,4 @@ gradle.properties
 **/bin/
 **/var/
 **/logs/
+src/main/java/com/gabriellopes/crackingthecodinginterview/ignored/
