@@ -25,3 +25,4 @@ gradle.properties
 **/var/
 **/logs/
 src/main/java/com/gabriellopes/crackingthecodinginterview/ignored/
+/src/main/java/com/gabriellopes/crackingthecodinginterview/technichesconcepts/FibonacciNumbers.java
