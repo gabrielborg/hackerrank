@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class TriesContacts {
 
   public static class Node {
+
     int occurrences;
     Map<Character, Node> children = new HashMap<>();
 
@@ -25,27 +26,39 @@ public class TriesContacts {
       root = new Node();
     }
     public void addName(String s) {
+
       Node current = root;
-      for(int i = 0; i < s.length(); i++) {
-        if(current.children.containsKey(s.charAt(i))) {
-          current = current.children.get(s.charAt(i));
+
+      for(Character c : s.toCharArray()) {
+
+        if(current.children.containsKey(c)) {
+
+          current = current.children.get(c);
           current.occurrences++;
+
         } else {
+
           Node newNode = new Node();
-          current.children.put(s.charAt(i), newNode);
+          current.children.put(c, newNode);
           current = newNode;
         }
       }
     }
     public int findPartial(String s) {
+
       Node current = root;
-      for(int i = 0; i < s.length(); i++) {
-        if(!current.children.containsKey(s.charAt(i))) {
+
+      for(Character c : s.toCharArray()) {
+
+        if(!current.children.containsKey(c)) {
+
           return 0;
         } else {
-          current = current.children.get(s.charAt(i));
+
+          current = current.children.get(c);
         }
       }
+
       return current.occurrences;
     }
   }
