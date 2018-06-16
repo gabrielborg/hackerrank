@@ -17,22 +17,21 @@ public class StringsMakingAnagrams {
     final int ALPHABET_LETTERS_NUM = 26;
     final int FIRST_LETTER = 'a';
 
-    int lettersFreq1[] = new int[ALPHABET_LETTERS_NUM];
-    int lettersFreq2[] = new int[ALPHABET_LETTERS_NUM];
+    int lettersFreq[] = new int[ALPHABET_LETTERS_NUM];
 
     for (int i = 0; i < a.length(); i++) {
-      lettersFreq1[a.charAt(i) - FIRST_LETTER]++;
+      lettersFreq[a.charAt(i) - FIRST_LETTER]++;
     }
 
     for(int i = 0; i < b.length(); i++) {
-      lettersFreq2[b.charAt(i) - FIRST_LETTER]++;
+      lettersFreq[b.charAt(i) - FIRST_LETTER]--;
     }
 
     int result = 0;
 
     for(int i = 0; i < ALPHABET_LETTERS_NUM; i++) {
 
-      result += Math.abs(lettersFreq1[i] - lettersFreq2[i]);
+      result += Math.abs(lettersFreq[i]);
     }
 
     System.out.println(result);
