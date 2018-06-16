@@ -63,7 +63,7 @@ public class StacksBalancedBrackets {
     for (int tItr = 0; tItr < t; tItr++) {
       String expression = scanner.nextLine();
 
-      System.out.println(isBalanced(expression) == true ? "YES" : "NO");
+      System.out.println(isBalanced(expression) ? "YES" : "NO");
     }
 
     scanner.close();

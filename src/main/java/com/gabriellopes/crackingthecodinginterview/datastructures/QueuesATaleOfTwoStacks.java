@@ -46,7 +46,7 @@ public class QueuesATaleOfTwoStacks {
   }
 
   public static void main(String[] args) {
-    MyQueue<Integer> queue = new MyQueue<Integer>();
+    MyQueue<Integer> queue = new MyQueue<>();
 
     Scanner scan = new Scanner(System.in);
     int n = scan.nextInt();
