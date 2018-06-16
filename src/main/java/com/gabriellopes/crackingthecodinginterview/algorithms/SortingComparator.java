@@ -5,6 +5,14 @@ import java.util.Comparator;
 /** Created by glopes in Jun 2018. */
 public class SortingComparator implements Comparator<Player> {
 
+  /**
+   * Ascending: o1 < o2 = -1, o1 > o2 = 1, o1 == o2 = 0
+   * Descending: o1 < o2 = 1, o1 > o2 = -1, o1 == o2 = 0
+   *
+   * @param o1
+   * @param o2
+   * @return
+   */
   @Override
   public int compare(Player o1, Player o2) {
 
