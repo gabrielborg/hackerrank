@@ -61,9 +61,7 @@ public class TreesIsThisABinarySearchTree {
 
   public static void main(String[] args) {
 
-    boolean result = checkBST(getTree());
-
-    System.out.println(result);
+    System.out.println(checkBST(getTree()));
   }
 
   private static Node getTree() {
