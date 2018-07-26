@@ -24,5 +24,6 @@ gradle.properties
 **/bin/
 **/var/
 **/logs/
-src/main/java/com/gabriellopes/crackingthecodinginterview/ignored/
 /src/main/java/com/gabriellopes/crackingthecodinginterview/technichesconcepts/FibonacciNumbers.java
+/src/test/java/com/gabriellopes/crackingthecodinginterview/ignored/StringTestTest.java
+/src/main/java/com/gabriellopes/crackingthecodinginterview/test

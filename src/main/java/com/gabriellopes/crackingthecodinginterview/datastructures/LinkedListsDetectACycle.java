@@ -32,4 +32,28 @@ public class LinkedListsDetectACycle {
 
     return result;
   }
+
+  boolean hasCycleImproved(Node head) {
+
+    if (head == null) {
+
+      return false;
+    } else {
+
+      Node slow = head;
+      Node fast = head.next;
+
+      while (fast != null && fast.next != null && fast != slow) {
+        slow = slow.next;
+        fast = fast.next.next;
+      }
+
+      if (fast != null && fast == slow) {
+
+        return true;
+      }
+
+      return false;
+    }
+  }
 }
