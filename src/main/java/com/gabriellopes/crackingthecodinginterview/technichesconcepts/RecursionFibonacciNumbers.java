@@ -1,7 +1,5 @@
 package com.gabriellopes.crackingthecodinginterview.technichesconcepts;
 
-import java.util.stream.IntStream;
-
 /**
  * Created by glopes in Jun 2018.
  *
