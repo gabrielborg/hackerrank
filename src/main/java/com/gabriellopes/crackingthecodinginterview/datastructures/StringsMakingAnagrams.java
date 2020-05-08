@@ -29,10 +29,8 @@ public class StringsMakingAnagrams {
 
     int result = 0;
 
-    for(int i = 0; i < ALPHABET_LETTERS_NUM; i++) {
-
-      result += Math.abs(lettersFreq[i]);
-    }
+    for(int value : lettersFreq)
+      result += Math.abs(value);
 
     System.out.println(result);
 
