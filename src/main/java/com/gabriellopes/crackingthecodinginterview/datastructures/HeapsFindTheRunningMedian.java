@@ -26,6 +26,8 @@ import java.util.PriorityQueue;
  * should be the top value of the large heap.
  *
  * Than we will move on to the next number in the stream.
+ *
+ * https://www.hackerrank.com/challenges/ctci-find-the-running-median/problem?h_r=internal-search
  */
 public class HeapsFindTheRunningMedian {
 
