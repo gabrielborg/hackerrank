@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 /**
  * Created by glopes in Jun 2018.
+ *
+ * https://www.hackerrank.com/challenges/ctci-contacts/problem?h_r=internal-search
  */
 public class TriesContacts {
 
