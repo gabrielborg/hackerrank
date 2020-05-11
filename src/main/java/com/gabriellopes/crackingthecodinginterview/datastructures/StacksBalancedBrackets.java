@@ -3,7 +3,10 @@ package com.gabriellopes.crackingthecodinginterview.datastructures;
 import java.util.Scanner;
 import java.util.Stack;
 
-/** Created by glopes in May 2018. */
+/** Created by glopes in May 2018.
+ *
+ * https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem?h_r=internal-search
+ */
 public class StacksBalancedBrackets {
 
   private static final int OPENING_SQUARE_BRACKET = '[';
